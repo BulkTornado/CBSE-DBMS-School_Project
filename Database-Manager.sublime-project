@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "folder_exclude_patterns": [".venv", "__pycache__"],
+        }
+    ],
+    "settings": {
+        "python_interpreter": "${folder}/.venv/Scripts/python.exe",
+        "LSP":
+        {
+			"LSP-pyright":
+			{
+				"enabled": true,
+			},
+		},
+    },
+}
